@@ -2364,8 +2364,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 30px;
 }
 
+.col {
+  flex-basis: auto;
+}
 .about-right {
-  padding-right: 20%;
+  padding-right: 10%;
 }
 
 @media (max-width: 1280px) {
