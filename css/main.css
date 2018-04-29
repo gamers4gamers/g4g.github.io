@@ -2364,9 +2364,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 30px;
 }
 
-.col {
+.single-about .col {
   flex-basis: auto;
 }
+
 .about-right {
   padding-right: 10%;
 }
