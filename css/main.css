@@ -2280,7 +2280,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 767.98px) {
   .banner-area .fullscreen {
-    height: 700px !important;
+    height: 400px !important;
   }
 }
 
@@ -2356,7 +2356,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 1024px) {
   .about-area {
-    padding: 50px 0;
+    padding: 0px 0;
   }
 }
 
@@ -2382,13 +2382,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   .about-right h1 {
     font-size: 28px;
   }
+  .about-right {
+    padding-top: 50px;
+  }
+
+  .about-details {
+    padding-top: 100px;
+  }
 }
 
 @media (max-width: 800px) {
   .about-right {
     padding-top: 50px;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-bottom: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
@@ -2916,4 +2924,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .switch-wrap p {
   margin: 0;
+}
+
+.g4g-center {
+  text-align: center;
+}
+
+ @media (max-width: 768.9px) {
+  #g4g-circle {
+      display:none;
+  }
+}  
+.single-about {
+  min-height: 200px;
 }
