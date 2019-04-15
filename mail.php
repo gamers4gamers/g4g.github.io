@@ -23,7 +23,7 @@
 
     if (@mail($to, $email, $message, $headers))
     {
-        echo 'The message has been sent.';
+        echo 'The message has been sent..';
     }else{
         echo 'failed';
     }
