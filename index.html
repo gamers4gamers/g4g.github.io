@@ -436,17 +436,18 @@
 							<div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="420" id="gmap_canvas" src="https://maps.google.com/maps?q=40%20E%20Main%20St&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{text-align:right;height:400px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:500px;}</style></div>
 						</div>
 						<div class="col-lg-6 col-md-12 pt-100 pb-100">
-							<form class="form-area" id="myForm" action="mail.php" method="post" class="contact-form text-right">
+							<form name="gform" id="gform" class="form-area" action="https://docs.google.com/forms/d/e/1FAIpQLScAk4usLMT21EM1uK1Wq9C2TTRBXKMi1O571Th-sNHmH_YPoA/formResponse?" target="hidden_iframe" onsubmit="submitted=true" class="contact-form text-right">
 								<h1>Drop us a line</h1>
 								<p class="pt-10 pb-50">We'll get back to you immediately</p>
-								<input name="fname" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mt-10" required="" type="text">
-								<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mt-10" required="" type="email">
-								<input name="subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" class="common-input mt-10" required="" type="subject">
-								<textarea class="common-textarea mt-10" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-								<button class="pull-right primary-btn mt-20">Send<span class="lnr lnr-arrow-right"></span></button>
+								<input name="entry.1289339601" id="entry.1289339601" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mt-10" required="" type="text">
+								<input name="entry.1287666040" id="entry.1287666040" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mt-10" required="" type="email">
+								<input name="entry.1701995784" id="entry.1701995784" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" class="common-input mt-10" required="" type="subject">
+								<textarea class="common-textarea mt-10" name="entry.312096322" id="entry.312096322" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+								<input type="Submit" value="submit" class="pull-right primary-btn mt-20 pr-30"></input>
 								<div class="mt-10 alert-msg">
 								</div>
 							</form>
+							<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 						</div>
 					</div>
 				</div>
@@ -543,6 +544,7 @@
 			<script src="js/parallax.min.js"></script>
 			<script src="js/waypoints.min.js"></script>
 			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/form.js"></script>
 			<script src="js/mail-script.js"></script>
 			<script src="js/main.js"></script>
 		</body>

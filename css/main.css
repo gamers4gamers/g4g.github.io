@@ -538,8 +538,8 @@ td, th {
   padding-bottom: 150px;
 }
 
-.pr-30 {
-  padding-right: 30px;
+.pr-20 {
+  padding-right: 20px;
 }
 
 .pl-30 {
@@ -2928,6 +2928,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .g4g-center {
   text-align: center;
+}
+
+.pr-30 {
+  padding-right: 30px;
 }
 
  @media (max-width: 768.9px) {
